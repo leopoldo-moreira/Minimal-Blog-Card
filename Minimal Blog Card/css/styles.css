@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAF9;           
+}
+
+.main {    
+    width: 368px;    
+    margin: 164px auto;    
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);    
+}
+
+.img-cactus {
+    width: 100%;
+    height: 152px;   
+    border-radius: 16px;     
+    display: block;  
+}
+
+.tag{    
+    margin-top: 16px;       
+    background-color: #E6D6FC;  
+    display: flex;    
+    justify-content: center;
+    width: fit-content;    
+    display: flex;
+    border-radius: 16px;
+}
+
+.tag > span{
+    font-family: sora, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #883AE1;   
+    margin: 6px 16px;    
+}
+
+.title{    
+    margin-top: 16px;
+    font-family: sora, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-body{    
+    font-family: sora, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 6px;    
+    line-height: 20px;
+}
+
+hr{
+    position: relative;
+    right: 16px;
+    width: 368px;
+    top: 20px;
+    display: inline-block;
+    border-color: #FAFAF9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1.5px;    
+}
+
+.author{    
+    margin-top: 37px;    
+    font-family: sora, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
